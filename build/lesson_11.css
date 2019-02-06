@@ -1,0 +1,22 @@
+.traffic-lighter {
+  width: 60px;
+  border: 1px solid #272727;
+  border-radius: 4px;
+  margin: 0 auto; }
+  .traffic-lighter__lamp {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: #7c7c7c;
+    outline: none;
+    transition: all 0.5s; }
+    .traffic-lighter__lamp_active.traffic-lighter__lamp_red {
+      background-color: red; }
+    .traffic-lighter__lamp_active.traffic-lighter__lamp_yellow {
+      background-color: yellow; }
+    .traffic-lighter__lamp_active.traffic-lighter__lamp_green {
+      background-color: green; }
+    .traffic-lighter__lamp_active.traffic-lighter__lamp_aqua {
+      background-color: aqua; }

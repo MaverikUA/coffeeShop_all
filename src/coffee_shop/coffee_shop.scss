@@ -1,0 +1,260 @@
+@import './styles/base.scss';
+@import './styles/tabs.scss';
+@import './styles/bigSlider.scss';
+@import './styles/smallSlider.scss';
+
+
+.shop-logo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+
+    &__logo {
+        padding-left: 125px;
+    }
+
+    &__text {
+        font-size: 54px;
+        position: relative;
+        left: 147px;
+
+        &_big {
+            background-color: #c7a17a;
+            color: #ffffff;
+            height: 70px;
+        }
+    }
+
+}
+
+.main-shop-image {
+    background-image: url(../../assets/images/coffee_shop/main_screen_images/30072807-909538065884146-2710474531215143694-o.png );
+    min-width: 690px;
+    max-height: 768px;
+    width:50%;
+}
+
+.shop-action {
+    width:20%;
+    min-width: 337px;
+    background-color: #415167;
+    padding-left: 70px;
+    padding-top: 72px;
+}
+
+.shop-action__menu {
+    margin-top: 118px;
+    color: #edf0f5;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.shop-action__item {
+    margin-top:15px;
+}
+
+.shop-action__cart-count  {
+    background:#c7a17a;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 38px;
+    left: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.section-wrapper {
+    display: flex;
+
+    &_flex {
+        flex-direction: column;
+    }
+
+    &_height {
+        min-height: 768px;
+    }
+
+    &:before {
+        content: '';
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    }
+}
+
+.content-container {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    padding-bottom:125px;
+    padding-left:125px;
+
+    &_color {
+        background-color: #edf0f5;
+    }
+}
+
+.title {
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 125px;
+
+    &__desc {
+        font-family: Nunito;
+        font-size:20px;    
+    }
+
+    &__main {
+        font-family:Montserrat;
+    font-size:30px;
+    }
+}
+
+.shop-features {
+    display: flex;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 89px;
+        margin-bottom:129px; 
+    }
+
+    &__item {
+        text-align: center;
+        max-width: 224px;
+    }
+
+}
+
+.features_name {
+    margin-top:41px;
+    margin-bottom:12px;
+}
+
+.content_container-right-dark:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #415167;
+}
+
+.content-container_left-dark:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #415167;
+}
+
+.content-container_right-light:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #f9fbff;
+}
+
+.product_price {
+    font-family: Nunito;
+    font-size:20px;
+    color:#c7a17a;
+}
+
+.product_desc, .product_actions {
+    font-family: Nunito;
+    font-size:16px;
+    color: #f9fbff;
+}
+
+.features_name, .product_name {
+    font-family: Nunito-Bold;
+    font-size:24px;
+}
+
+.bad_price {
+    font-family: Nunito;
+    font-size:14px;
+}
+
+.product_info {
+    max-width:260px;
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product_name {
+    font-size: 24px;
+    color:#232c38;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.product_desc {
+    color:#151d28;
+    font-size: 16px;
+    text-align: left;
+}
+
+.product_actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.detail{
+    color: #415167;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.buy {
+    border-radius: 19px;
+    background-color: #c7a17a;
+    height:30px;
+    width: 120px;
+    border: none;
+    font-family: Nunito;
+    font-size:16px;
+    color: #f9fbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #edf0f5;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito-Italic;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+
+
+@import './styles/mediaQuerry.scss';

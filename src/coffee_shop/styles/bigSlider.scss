@@ -1,0 +1,67 @@
+.carousel-wrapper_big {
+    position: relative;
+    width: 100%;
+    height: 545px;
+    overflow: hidden;
+    
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 1635px;
+        height: 544px;
+        width:90px;
+        box-shadow: 75px 0px 103px -14px rgba(255,255,255,0.6);
+    }
+}
+
+.products {
+    display: flex;
+    left: 0;
+    width:3600px;
+    position: relative;
+    transition: all ease 1s;
+
+    &__list {
+    display:flex;
+    transition: margin-left 950ms;
+    }
+
+    &__slide {
+    width:1675px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    &__item {
+        display: flex;
+        width: 47%;
+        background-color: white;
+        margin-right: 29px;
+
+        &:nth-child(-n+2) {
+            margin-bottom:32px;
+        }
+        
+        &:hover {
+            transform: scale(1.0);
+            transition: all 0.5s;
+            box-shadow: 0px 0px 17px 2px rgba(204,202,204,0.95);
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.carouselBtn_big-right {
+    
+    position: absolute;
+    left: 90%;
+    bottom: 45%;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.active {
+    background: #ffffff;
+}
+
+.tabs-header {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #edf0f5;
+    background: #edf0f5;
+}
+
+.tab-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 33.33%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.tabs-body {
+    position: relative;
+    z-index: 1;
+
+    &__item {
+        display: none;
+    }
+}
+
+.tabs-header {
+    position: relative;
+    z-index: 2;
+}
+
+.tab_image {
+    font-size:0;
+    
+}
+.tab_image img {
+    font-size:0;
+    width:560px;
+    height:px;
+}
+.tabs__content {
+    display:flex;
+    margin-top:40px;
+    position: relative;
+}
+ 
+ .tab_product-info {
+    max-width: 430px;
+}
+ 
+.gift__set_tab-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+    padding-left:170px;
+    padding-right:170px;
+}
