@@ -1,17 +1,11 @@
 
 @media screen and (max-width: 1440px) {
-
-    
     .title {
-        
          margin-right: 0px; 
     }
 
     .slider:after {
-        
         left: 1176px;
-        
-        
     }
     .carousel-wrapper_big:after {
         left: 1135px;
@@ -34,24 +28,10 @@
         width: 1190px;
     }
 
-    .products_combo {
-        width: 1315px;
-    }
-
-    .products_combo__item {
-        margin-left: 12px;
-        margin-right: 12px;
-
-    }
     .carousel-wrapper_small li {
         width: 330px;
         height: 500px;
     }
-    .products_combo img {
-        width: 330px;
-        height: 300px;
-    }
-
     .carousel-wrapper_small:after {
         content: '';
         position: absolute;
@@ -60,6 +40,17 @@
         height: 544px;
         width: 90px;
         box-shadow: 177px 0px 159px -14px rgba(255, 255, 255, 0.6);
+    }
+    .products_combo {
+        width: 1315px;
+        &__item{
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+    }
+    .products_combo img {
+        width: 330px;
+        height: 300px;
     }
 }
 
@@ -103,11 +94,9 @@
         font-size: 17px;
     }
 
-
     .content-container {
         padding-left: 25px;
     }
-
 
     .tab_image img {
         width: 400px;
@@ -125,16 +114,14 @@
     .carousel-wrapper_small {
         width: 860px;
     }
-
-    .products_combo {
-        width: 998px;
-    }
-
     .carousel-wrapper_small li {
         width: 270px;
         height: 420px;
     }
 
+    .products_combo {
+        width: 998px;
+    }
     .products_combo img {
         width: 250px;
         height: 220px;
@@ -143,9 +130,6 @@
     .small-slider {
         max-width: 200px;
     }
-
-    
-
 }
 
 
@@ -187,22 +171,15 @@
     }
 
     .carousel-wrapper_small:after {
-        left: 440px;
-        height: 544px;
+        left: 515px;
+        height: 390px;
         width: 90px;
     }
 
     .carousel-wrapper_small li {
-        width: 200px;
+        width: 208px;
         height: 390px;
         
-    }
-
-
-
-    .products_combo__item {
-        margin-left: 5px;
-        margin-right: 5px;
     }
     .products_combo img {
         width: 200px;
@@ -214,5 +191,249 @@
     }
     .product_price {
         font-size: 15px;
+    }
+
+    .products_combo {
+        width: 742px;
+
+        &__item {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+    .product_desc {
+        font-size: 14px;
+    }
+    .product_actions {
+        justify-content: space-around;
+    }
+
+    .buy {
+        width: 80px;
+    }
+
+    .carouselBtn {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    
+    .shop-action__item {
+        margin: 0;
+    }
+    .shop-action {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 45px;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .shop-action__menu {
+        display: flex;
+        margin-top: 0;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shop-logo__logo {
+        padding-left: 8px;
+    }
+
+    .shop-logo__logo img{
+        width: 120px;
+    }
+    .main-shop-image {
+        width: 70%;
+        padding-top: 60px;
+    }
+
+    .shop-logo__text {
+        font-size: 24px;
+        left: 8px;
+        width:190px;
+        padding-top: 60px;
+    }
+
+    .title {
+        margin-top: 45px;
+    }
+    .title__main {
+        font-family: Montserrat;
+        font-size: 23px;
+    }
+
+    .shop-features__ico img {
+        width:40px;
+    }
+
+    .shop-features__description {
+        font-size: 12px;
+    }
+
+    .carousel-wrapper_big {
+        height: 560px;
+    }
+
+    .products__slide {
+        display: block;
+    }
+
+    .products__item:nth-child(-n+2) {
+        margin-bottom: 8px;
+    }
+    .products__item:nth-last-child(-n+2) {
+        margin-bottom: 8px;
+    }
+
+    .product_name {
+        font-size: 15px;
+    }
+    .product_actions {
+        margin-top: 10px;
+    }
+
+    .carouselBtn  {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .carouselBtn_big-right {
+        top: 255px;
+    }
+
+    .products__item img {
+        width: 110px;
+        height: 130px;
+    }
+
+    .tabs__content {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .tab_image img {
+        width: 218px;
+    }
+
+    .tabs-body__item {
+        flex-wrap: wrap;
+    }
+
+    .gift__set_tab-info {
+        width: 380px;
+        padding: 0;
+        flex-direction: row;
+    }
+    .tab_product-info {
+        max-width: 370px;
+    }
+
+    .tabs-header {
+        flex-direction: row;
+        width: 380px;
+        border-top: 3px solid #d9d9da;
+    }
+
+    .tab-h {
+        width: 125px;
+    }
+
+    .carousel-wrapper_small {
+        width: 395px;
+    }
+    .products_combo {
+        width: 400px;
+    }
+
+    .carousel-wrapper_small:after {
+        display: none;
+    }
+
+    .product_info {
+        margin-left: 8px;
+    }
+
+    .carousel-wrapper_small li {
+        width: 180px;
+    }
+    .products_combo img {
+        width: 178px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:325px) {
+
+    .shop-logo__logo img {
+        width: 80px;
+    }
+
+    .shop-logo__text {
+        font-size: 18px;
+    }
+
+    .title__desc {
+        font-size: 14px;
+    }
+
+    .title__main {
+        font-size: 16px;
+    }
+
+    .product_name {
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .product_desc {
+        font-size: 12px;
+    }
+
+    .buy {
+        width: 70px;
+        height: 25px;
+    }
+
+    .products__item img {
+        width: 95px;
+        height: 110px;
+    }
+
+    .carouselBtn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carouselBtn_big-right {
+        left:260px;
+    }
+
+    .tabs-header {
+        width: 290px;
+    }
+
+    .carousel-wrapper_small {
+        width: 295px;
+    }
+   
+    .products_combo {
+        width: 295px;
+    }
+
+    .carousel-wrapper_small li {
+        width: 250px;
+    }
+
+    .products_combo img {
+        width: 250px;
+        height: 230px;
     }
 }
